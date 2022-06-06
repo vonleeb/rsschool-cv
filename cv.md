@@ -31,6 +31,9 @@ console.log('Hello world!');
 ```
 
 ## Education:
-
+*BSUIR 2018 industrial electronics*
 
 ## Languages:
++ Belarusian
++ Russia
++ English (A2)
