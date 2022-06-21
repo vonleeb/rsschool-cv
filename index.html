@@ -7,8 +7,42 @@
     <link rel="stylesheet" href="./assets/styles/normalize.css">
     <link rel="stylesheet" href="./assets/styles/style.css">
     <link rel="shortcut icon" href="./assets/images/logo.png" type="image/png">
-    <title>Travel</title>
+    <title>Travel Portal</title>
 </head>
 <body>
+    <header class="header">
+        <div class="header-logo">
+            <img class="header-logo_image" src="./assets/images/logo.png" alt="header-logo">
+            <span class="header-logo_name">Travel Portal</span>
+        </div>
+        <nav class="header-navigation">
+            <ul class="header-navigation-list">
+                <li class="header-naviation-list_item">
+                    <a href="#preview" class="header-nagivation-list_item-link">How It Works</a>
+                </li>
+                <li class="header-naviation-list_item">
+                    <a href="#steps" class="header-nagivation-list_item-link">Plan Your Trip</a>
+                </li>
+                <li class="header-naviation-list_item">
+                    <a href="destinations" class="header-nagivation-list_item-link">Destinations</a>
+                </li>
+                <li class="header-naviation-list_item">
+                    <a href="stories" class="header-nagivation-list_item-link">Travel Stories</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="header-auth">
+            <button class="button button-login" type="button">
+                <span class="button-text">Login</span>
+            </button>
+        </div>
+    </header>
+    <main class="main-content">
+        <section id="preview" class="section section-preview"></section>
+        <section id="steps" class="section section-steps"></section>
+        <section id="destinations" class="section section-destinations"></section>
+        <section id="stories" class="section section-stories"></section>
+    </main>
+    <footer class="footer"></footer>
 </body>
 </html>
