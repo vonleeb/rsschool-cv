@@ -13,7 +13,9 @@ h1 {
 }
 
 .header,
-.header-navigation-list {
+.header-navigation-list,
+.slider-elements,
+.slider-navigation {
     display: flex;
     justify-content: space-between;
 }
@@ -75,6 +77,10 @@ h1 {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 3px rgba(13, 96, 111, 0.16);
     border-radius: 10px;
     border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 32px;
 }
 
 .button-login {
@@ -208,4 +214,104 @@ h1 {
     font-size: 20px;
     line-height: 24px;
     color: #0D606F;
+}
+
+.section-destinations {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+.section-destinations_title {
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 53px;
+    color: #F2785C;
+    margin-top: 100px;
+    margin-bottom: 45px;
+}
+
+.slider-element {
+    width: 800px;
+    height: 800px;
+    margin: 0 30px;
+    flex-grow: 0;
+    border-radius: 16px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.slider-element:nth-child(1) {
+    background: url(../images/spain.jpg), #FFFFFF;
+}
+
+.slider-element:nth-child(2) {
+    background: url(../images/japan.jpg), #FFFFFF;
+}
+
+.slider-element:nth-child(3) {
+    background: url(../images/usa.jpg), #FFFFFF;
+}
+
+.slider-element:first-of-type {
+    margin-left: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.slider-element:last-of-type {
+    margin-right: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.slider-element_title {
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 42px;
+    color: #FFFFFF;
+    margin-left: 15px;
+    margin-bottom: 40px;
+}
+
+.slider-naviagtion_item {
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background: rgba(242, 120, 92, 0.5);
+    margin-right: 10px;
+}
+
+.slider-navigation_item:last-of-type {
+    margin-right: 0;
+}
+
+.slider-naviagtion_item.selected {
+    background: #F2785C;
+}
+
+.slider-navigation {
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+.button-find-more-image {
+    margin-right: 10px;
+}
+
+.button-find-more-text {
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
 }
