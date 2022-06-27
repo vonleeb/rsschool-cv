@@ -303,15 +303,132 @@ h1 {
     margin-bottom: 40px;
 }
 
-.button-find-more-image {
+.button-find-more-image,
+.button-see-more-image {
     margin-right: 10px;
 }
 
-.button-find-more-text {
+.button-find-more-text,
+.button-see-more-text {
     font-family: 'Red Hat Text';
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
     line-height: 32px;
     color: #FFFFFF;
+}
+
+.section-stories-title {
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 53px;
+    color: #F2785C;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.container-footer {
+    background: url(../images/boat_and_pirs.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.story-item {
+    display: flex;
+    width: 1200px;
+    height: 250px;
+    margin: 0 120px 30px 120px;
+}
+
+.store-item:first-of-type {
+    margin-top: 60px;
+}
+
+.store-item:last-of-type {
+    margin-bottom: 40px;
+}
+
+.stories-action {
+    margin-bottom: 40px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 350px;
+    width: 730px;
+    height: 60px;
+}
+
+.social-media {
+    margin-left: 320px;
+}
+
+.copyright-info_text {
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.social-media > a {
+    margin-right: 20px;
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+}
+
+.social-media > a:last-of-type {
+    margin-right: 0;
+}
+
+.story-container {
+    padding-top: 40px;
+    background:  rgba(229, 229, 229, 0.7);
+}
+
+.stories-action {
+    display: flex;
+    justify-content: center;   
+}
+
+.story-item_image {
+    filter: drop-shadow(0px 4px 4px #0D606F);
+    border-radius: 16px;
+    width: 400px;
+    height: 250px;
+    margin-right: 40px;
+}
+
+.story-item_content-title {
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 42px;
+    color: #0D606F;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 0;
+}
+
+.story-item_content-text {
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #0D606F;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 24 0 0 0;
+}
+
+.story-item_content-text > a {
+    color: #0D606F;
 }
