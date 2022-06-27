@@ -6,42 +6,44 @@
     <meta name="viewport" content="width=1440px, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/styles/normalize.css">
     <link rel="stylesheet" href="./assets/styles/style.css">
-    <link rel="shortcut icon" href="./assets/images/logo.png" type="image/png">
+    <link rel="shortcut icon" href="./assets/images/logo.svg" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,400;0,700;1,400;1,700&family=Magra:wght@400;700&family=Red+Hat+Text:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap" rel="stylesheet"> 
     <title>Travel Portal</title>
 </head>
 <body>
-    <header class="header">
-        <div class="header-logo">
-            <img class="header-logo_image" src="./assets/images/logo.png" alt="header-logo">
-            <span class="header-logo_name">Travel Portal</span>
-        </div>
-        <nav class="header-navigation">
-            <ul class="header-navigation-list">
-                <li class="header-naviation-list_item">
-                    <a href="#preview" class="header-nagivation-list_item-link">How It Works</a>
-                </li>
-                <li class="header-naviation-list_item">
-                    <a href="#steps" class="header-nagivation-list_item-link">Plan Your Trip</a>
-                </li>
-                <li class="header-naviation-list_item">
-                    <a href="destinations" class="header-nagivation-list_item-link">Destinations</a>
-                </li>
-                <li class="header-naviation-list_item">
-                    <a href="stories" class="header-nagivation-list_item-link">Travel Stories</a>
-                </li>
-            </ul>
-        </nav>
-        <div class="header-auth">
-            <button class="button button-login" type="button">
-                <span class="button-text">Login</span>
-            </button>
-        </div>
-    </header>
-    <main class="main-content">
+    <div class="container-header">
+        <header class="header">
+            <div class="header-logo">
+                <img class="header-logo_image" src="./assets/images/logo.svg" alt="header-logo">
+                <span class="header-logo_name">Travel Portal</span>
+            </div>
+            <nav class="header-navigation">
+                <ul class="header-navigation-list">
+                    <li class="header-naviation-list_item">
+                        <a href="#preview" class="header-nagivation-list_item-link">How It Works</a>
+                    </li>
+                    <li class="header-naviation-list_item">
+                        <a href="#steps" class="header-nagivation-list_item-link">Plan Your Trip</a>
+                    </li>
+                    <li class="header-naviation-list_item">
+                        <a href="destinations" class="header-nagivation-list_item-link">Destinations</a>
+                    </li>
+                    <li class="header-naviation-list_item">
+                        <a href="stories" class="header-nagivation-list_item-link">Travel Stories</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="header-auth">
+                <button class="button button-login" type="button">
+                    <span class="button-text">Login</span>
+                </button>
+            </div>
+        </header>
         <section id="preview" class="section section-preview">
-            <div class="preview_wrapper">
                 <div class="preview-title">
-                    <h1 class="preview-title_text">Explore the beauty of the World</h1>
+                    <h1 class="preview-title_text">Explore the beauty of the&nbsp;World</h1>
                 </div>
                 <div class="preview-description">
                     <span class="preview-description_text">
@@ -49,15 +51,16 @@
                     </span>
                 </div>
                 <div class="preview-search_wrapper">
-                    <span class="preview-search-text">What would you like to do?</span>
-                    <button class="button button-start-planning">Start Planning</button>
+                    <input type="text" class="preview-search-text" placeholder="What would you like to do?" />
+                    <button class="button button-start-planning">
+                        <span class="button-text">Start Planning</span>
+                    </button>
                 </div>
-            </div>
         </section>
+    </div>
+    <main class="main-content">
         <section id="steps" class="section section-steps">
-            <div class="section-steps_title-wrapper">
-                <h1 class="section-steps_title-text">3 STEPS TO THE PERFECT TRIP</h1>
-            </div>
+            <h2 class="section-steps_title-text">3 STEPS TO THE PERFECT TRIP</h2>
             <div class="section-steps_list-wrapper">
                 <div class="steps-item">
                     <div class="steps-item_icon">

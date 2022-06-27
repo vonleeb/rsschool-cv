@@ -1,0 +1,211 @@
+body {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+h1 {
+    margin: 0;
+}
+
+.container-header {
+    background: no-repeat center/cover url(../images/mountains.jpg);
+    height: 765px;
+}
+
+.header,
+.header-navigation-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header {
+    height: 90px;
+    background: rgba(242, 120, 92, 0.7);
+    box-shadow: 0px 4px 4px rgba(13, 96, 111, 0.5);
+}
+
+.header-logo {
+    margin: 25px 0 34px 120px;
+    color: #FFFFFF;
+}
+
+.header-logo_image {
+    margin-right: 6px;
+    width: 30px;
+    height: 30px;
+}
+
+.header-logo_name {
+    font-family: 'Magra';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+}
+
+.header-navigation-list {
+    padding: 0;
+    list-style: none;
+    margin: 35px 196px 34px 158px;
+}
+
+.header-naviation-list_item {
+    margin-right: 21px;
+}
+
+.header-naviation-list_item:last-of-type {
+    margin-right: 0;
+}
+
+.header-nagivation-list_item-link {
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.button {
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    color: white;
+    background: #0D606F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 3px rgba(13, 96, 111, 0.16);
+    border-radius: 10px;
+    border: none;
+}
+
+.button-login {
+    padding: 10px 30px;
+}
+
+.button-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.header-auth {
+    margin: 25px 120px 24px 0;
+}
+
+.section-preview {
+    margin-left: 120px;
+    margin-top: 32px;
+    width: 892px;
+}
+
+.preview-description {
+    margin: 32px 0;
+}
+
+.preview-title_text {
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 96px;
+    color: #FFFFFF;
+}
+
+.preview-description_text { 
+    font-family: 'Aleo';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.preview-search_wrapper {
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 16px;
+    height: 95px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.preview-search-text {
+    margin: 32px 0 41px 41px;
+    font-family: 'Aleo';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #F2785C;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 22px;
+    width: 560px;
+    border: none;
+    background-image: none;
+    background-color: transparent;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    outline: none;
+}
+
+.button-start-planning {
+    padding: 10px 30px;
+    box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
+    margin-left: 45px;
+}
+
+.button-start-planning .button-text {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.section-steps {
+    margin: 32px 132px 32px 131px;
+}
+
+.section-steps_list-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-steps_title-text {
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 53px;
+    color: #F2785C;
+    text-align: center;
+}
+
+.section-steps_list-wrapper {
+    margin-top: 40px;
+}
+
+.steps-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.steps-item_icon {
+    width: 100px;
+    height: 100px;
+    background-color: #F2785C;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.steps-item_title {
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #0D606F;
+}
