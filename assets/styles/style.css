@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     width: 1440px;
     margin: 0 auto;
@@ -360,8 +364,6 @@ h1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 350px;
-    width: 730px;
     height: 60px;
 }
 
@@ -376,6 +378,7 @@ h1 {
     font-size: 16px;
     line-height: 21px;
     color: #FFFFFF;
+    margin-left: 265px;
 }
 
 .social-media > a {
@@ -431,4 +434,43 @@ h1 {
 
 .story-item_content-text > a {
     color: #0D606F;
+}
+
+.header-nagivation-list_item-link:hover {
+    text-decoration: underline;
+    transition: 0.4s;
+}
+
+.required-info {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.rs-school-image,
+.rs-school-link {
+    height: 60px;
+}
+
+.rs-school-link {
+    display: inline-block;
+}
+
+.social-media {
+    display: flex;
+}
+
+.github {
+    color: white;
+    font-weight: 500;
+}
+
+.slider-naviagtion_item:hover {
+    cursor: pointer;
+    background: #F2785C;
+}
+
+.button:hover {
+    background-color: #2ec6e0;
+    cursor: pointer;
 }
